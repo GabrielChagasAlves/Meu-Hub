@@ -1,0 +1,24 @@
+public class Exercicio3 {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+            System.out.println("Insira o primeiro numero");
+            
+        int numeroA = sc.nextInt();
+        
+            System.out.println("Insira o segundo numero");
+        int numeroB = sc.nextInt();
+
+             //caso o numero A seja maior que o numero B, sera impresso o numero A
+        if (numeroA > numeroB) {
+            System.out.println(numeroA);
+
+            //caso o numero B seja maior que o numero A, sera impresso o numero B
+        } else {
+            System.out.println(numeroB);
+            
+        }
+        sc.close();
+    }
+}
