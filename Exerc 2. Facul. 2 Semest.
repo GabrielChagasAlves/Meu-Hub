@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class TheOnli {
+    public static void main(String[] args) {
+        int num1 = 10; 
+        int num2 = 5;
+        
+       String resultado = CalculaSoma(65, 54);
+        System.out.println(resultado);
+    }
+    //===============================================
+    static String CalculaSoma(int numA, int numB)   {
+         int result = numA+numB;
+        
+         return "Resultado "+ result;
+       
+    }
+}
