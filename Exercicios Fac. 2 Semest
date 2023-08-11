@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Exercicio1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+     int resultado = CalculaTudo(10, 40, '+');
+     System.out.println("resutado: " + resultado);
+        System.out.println("Digite qual seu calculo");
+    }
+   static int CalculaTudo(int x, int y, char operador){
+        int resultado = 0;
+       switch (operador) {
+            case '+':
+                resultado = x + y;
+                break;
+                
+                case '-':
+                resultado = x - y;
+                break;
+                
+                case '*':
+                resultado = x * y;
+                break;
+                
+                case '/':
+                resultado = x / y;
+                break;
+       }
+       return resultado;
+   }
+}
