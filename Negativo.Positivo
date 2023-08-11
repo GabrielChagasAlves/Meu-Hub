@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Exercicio {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+            System.out.println("Infome um Numero");
+        int numero = sc.nextInt();
+
+            //se o numero informado for menor que 0, o mesmo sera negativo
+        if (numero < 0) {
+            System.out.println("Negativo");
+            
+            //se for maior que 0, o mesmo sera positivo
+        } else {
+            System.out.println("Nao Negativo");
+        }
+    }
+
+}
